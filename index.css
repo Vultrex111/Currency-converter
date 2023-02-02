@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-image: url(./symbols/wallpaperflare.com_wallpaper.jpg);
+}
+#page{
+    background: linear-gradient(rgba(0, 0, 0, 0.312),rgba(0,0,0,0.7)), url(/currency-symbols-design-vector-3313134.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#converter{
+    background: url(./symbols/wallpaperflare.com_wallpaper\ \(7\).jpg);
+    background-size: contain;
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow:0 0 25px 0 grey;
+}
+.inputCont_one{
+    background: transparent;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding-left: 20px;
+    margin-right: 25em;
+}
+.inputCont{
+    background: transparent;
+    border-radius: 50.5%;
+    height: 150px;
+    width: 150px;
+    padding-left: 20.5px;
+    margin-right: -25em;
+}
+.inputCont img {
+    height: 150px;
+    width: 150px;
+}
+
+nput{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    width: 30%;
+    background-color: black;
+}
+.one{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-right: 60px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: #013a6a;
+    width: 190px;
+    background: url(./symbols/wallpaperflare.com_wallpaper\ \(7\).jpg);
+}
+.two{
+    border-radius: 30px;
+    color: aqua;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 30px;
+    width: 190px;
+    background: url(./symbols/wallpaperflare.com_wallpaper\ \(7\).jpg);
+}
+#button{
+    width: 150px;
+    height: 50px;
+    font-size:20px ;
+    border-radius: 50%;
+    background-color:#c64cca;
+    cursor: pointer;
+    transition: 400ms;
+    border: none;
+}
+#button:hover{
+    transform: scale(1.06);
+    background-color: #dd9727;
+    transform: translateY(-20px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0,0.4);
+}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
+    display: none;
+}
+#standard{
+    padding-left: 300px ;
+}

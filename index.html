@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+</head>
+<body>
+    <div id="page">
+        <form id="converter">
+
+            <div class="inputCont_one"><img src="./symbols/naira.png" alt="naira" id="naria"><input class="one" type="number" name="input" id="input" ></div>
+            <div class="inputCont"><img src="./symbols/dollars.png" alt="currency" id="currency"> <input class="two" type="text" name="output" id="output" readonly></div>
+            <div>
+                <select name="currencies" id="money">
+                    <option value="0">Dollar</option>
+                </select>
+            </div>
+              <button type="button" id="button">Convert</button>
+        </form>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
